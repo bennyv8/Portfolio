@@ -8,33 +8,33 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi Everyone, I am <span className="purple">Soumyajit Behera </span>
-            from <span className="purple"> Bhubaneswar, India.</span>
-            <br /> I am a final year student pursuing an Integrated MSc (IMSc)
-            in Maths and Computing at BIT Mesra.
+            Hi Everyone, I am <span className="purple">Benny Van </span>
+            born and raised in <span className="purple"> Los Angeles, California.</span>
+            <br /> A recent UCLA and HackReactor grad, I'm looking to apply my skillset to contribute to something meaningful :D
             <br />
-            Additionally, I am currently employed as a software developer at
-            Juspay.
+            I have experience in several personal projects including an e-commerce website, a microservice,
+            and an interactive quiz-taking website. I also have profesional experience working as an Emergency
+            1Medical Technician and Biomedical Technician
             <br />
             <br />
             Apart from coding, some other activities that I love to do!
           </p>
           <ul>
             <li className="about-activity">
-              <ImPointRight /> Playing Games
+              <ImPointRight /> Motorcycles
             </li>
             <li className="about-activity">
-              <ImPointRight /> Writing Tech Blogs
+              <ImPointRight /> Snowboarding
             </li>
             <li className="about-activity">
-              <ImPointRight /> Travelling
+              <ImPointRight /> Stand-up Comedy
             </li>
           </ul>
 
           <p style={{ color: "rgb(155 126 172)" }}>
-            "Strive to build things that make a difference!"{" "}
+            "Always Improving"{" "}
           </p>
-          <footer className="blockquote-footer">Soumyajit</footer>
+          <footer className="blockquote-footer">my motto</footer>
         </blockquote>
       </Card.Body>
     </Card>
