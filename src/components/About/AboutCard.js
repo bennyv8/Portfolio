@@ -14,7 +14,7 @@ function AboutCard() {
             <br />
             I have experience in several personal projects including an e-commerce website, a microservice,
             and an interactive quiz-taking website. I also have profesional experience working as an Emergency
-            1Medical Technician and Biomedical Technician
+            Medical Technician and Biomedical Technician
             <br />
             <br />
             Apart from coding, some other activities that I love to do!
