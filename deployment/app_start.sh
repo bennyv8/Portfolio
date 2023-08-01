@@ -1,7 +1,7 @@
-#build app
+#!/bin/bash
+
+#run build
 npm run build
 
-pwd
-
-#preview app
+#run serve
 npm run serve
