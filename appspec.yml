@@ -1,0 +1,21 @@
+version: 0.0
+os: linux
+files:
+  - source: /
+    destination: /home/ubuntu/Porfolio
+hooks:
+  ApplicationStop:
+    - location: deployment/app_stop.sh
+      timeout: 300
+      runas: root
+  BeforeInstall:
+
+  AfterInstall:
+    - location: deployment/a_install.sh
+      timout: 500
+      runas: root
+
+  ApplicationStart:
+    - location: deployment/app_start.sh
+      timeout: 500
+      runas: root
