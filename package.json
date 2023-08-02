@@ -24,7 +24,7 @@
   "scripts": {
     "start": "sudo vite",
     "build": "sudo vite build",
-    "serve": "sudo vite preview",
+    "serve": "sudo vite preview --port 3000",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {

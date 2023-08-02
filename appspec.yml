@@ -2,4 +2,22 @@ version: 0.0
 os: linux
 files:
   - source: /
-    destination: /home/ubuntu/Portfolio2
+    destination: /home/ubuntu/Portfolio
+permissions:
+  - object: /home/ubuntu/Portfolio
+    owner: ubuntu
+    group: ubuntu
+hooks:
+  ApplicationStop:
+    - location: deployment/app_stop.sh
+      timeout: 300
+      runas: ubuntu
+
+  BeforeInstall:
+
+  AfterInstall:
+
+  ApplicationStart:
+    - location: deployment/app_start.sh
+      timeout: 500
+      runas: ubuntu
