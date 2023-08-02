@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #run build
-cd Portfolio
+cd Portfolio2
 
 npm run build
 
