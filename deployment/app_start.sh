@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #run build
-cd Portfolio
+cd /home/ubuntu/Portfolio
 
 npm run build
 
