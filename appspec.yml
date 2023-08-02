@@ -3,12 +3,3 @@ os: linux
 files:
   - source: /
     destination: /home/ubuntu/Portfolio2
-hooks:
-  ApplicationStop:
-
-  BeforeInstall:
-
-  AfterInstall:
-
-  ApplicationStart:
-
