@@ -1,4 +1,5 @@
 #!/bin/bash
+#please work
 
 #run build
 cd /home/ubuntu/Portfolio
