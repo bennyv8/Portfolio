@@ -12,3 +12,5 @@ sudo npm run build
 sudo npm run serve
 
 tmux detach-client
+
+exit 0
