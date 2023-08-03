@@ -5,14 +5,13 @@ files:
     destination: /home/ubuntu/Portfolio
 file_exists_behavior: OVERWRITE
 permissions:
-  - object: /home/ubuntu/Portfolio
-    owner: ubuntu
-    group: ubuntu
+  - object: /home/ubuntu/Portfolio/deployment
+    owner: root
 hooks:
   ApplicationStop:
     - location: deployment/app_stop.sh
       timeout: 300
-      runas: ubuntu
+      runas: root
 
   BeforeInstall:
 
@@ -21,4 +20,4 @@ hooks:
   ApplicationStart:
     - location: deployment/app_start.sh
       timeout: 500
-      runas: ubuntu
+      runas: root
