@@ -16,7 +16,7 @@ hooks:
 
   BeforeInstall:
 
-  AfterInstall:
+  ApplicationInstall:
 
   ApplicationStart:
     - location: deployment/app_start.sh

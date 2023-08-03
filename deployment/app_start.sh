@@ -4,7 +4,7 @@
 #run build
 cd /home/ubuntu/Portfolio
 
-npm run build
+sudo npm run build
 
 #run serve
-npm run serve
+sudo npm run serve
