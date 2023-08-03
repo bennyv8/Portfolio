@@ -6,5 +6,8 @@ cd /home/ubuntu/Portfolio
 
 sudo npm run build
 
-#run serve
-sudo npm run serve & exit 0
+#run serve in the background
+sudo npm run serve > /dev/null 2> /dev/null < /dev/null &
+
+#wait 20 seconds
+sleep 20
