@@ -20,5 +20,5 @@ hooks:
 
   ApplicationStart:
     - location: deployment/app_start.sh
-      timeout: 500
+      timeout: 120
       runas: root
