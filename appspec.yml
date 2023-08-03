@@ -16,7 +16,10 @@ hooks:
 
   BeforeInstall:
 
-  ApplicationInstall:
+  AfterInstall:
+    - location: deployment/app_install.sh
+      timeout: 120
+      runas: root
 
   ApplicationStart:
     - location: deployment/app_start.sh
