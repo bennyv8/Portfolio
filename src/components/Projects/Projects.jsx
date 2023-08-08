@@ -25,6 +25,7 @@ function Projects() {
               title="QuizWhiz"
               description="Interactive quiz-taking website to learn trivia, study, or just have fun. Users can create an account, create quizzes, take quizzes, and keep track of their progress."
               ghLink="https://github.com/potato-fixers/quiz-whiz.git"
+              demoLink="http://35.91.223.95/"
             />
           </Col>
 
