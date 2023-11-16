@@ -28,14 +28,14 @@ function AboutCard() {
               href="https://www.hackforla.org/projects/civic-tech-jobs.html"
               className="purple"
             >
-              Civic Tech Jobs
+              Civic Tech Jobs.
             </a>{" "}
             Prior to that, I have 3 full stack projects including an e-commerce
             user-interface, microservice API, and interactive quiz-taking
             application. I have also deployed and automated the CI/CD of this
             website. And once upon a time, I used to also work as a biomedical
             technician at Cedars Sinai and as an Emergency Medical Techncian for
-            the greater Los Angeles County
+            the greater Los Angeles County.
             <br />
             <br />
             Apart from coding, some other activities that I love to do!

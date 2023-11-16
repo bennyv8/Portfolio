@@ -25,7 +25,7 @@ function Projects() {
               imgPath={LP}
               isBlog={false}
               title="Lucky Parking"
-              description="An application to visualize LA Parking Citation Data to help policy makers make more informed decisions. Notable contributions include expanding UI/Test Code Coverage"
+              description="An application to visualize LA parking citation data helping policy makers make more informed decisions is built using feature-sliced design architecture and storybook"
               ghLink="https://github.com/hackforla/lucky-parking"
               demoLink="https://www.luckyparking.org/"
             />
@@ -36,7 +36,7 @@ function Projects() {
               imgPath={CTJ}
               isBlog={false}
               title="Civic Tech Jobs"
-              description="A website to connect and manage volunteers with oporrtunities at Hack for LA. I collaborate with UI/UX team to turn Figma wireframes into responsive and dyanmic pages"
+              description="A website to connect and manage volunteers with oporrtunities at Hack for LA and built using Python Django for backend and React/Tailwind for frontend"
               ghLink="https://github.com/hackforla/CivicTechJobs"
               demoLink="https://civictechjobs.org/"
             />
