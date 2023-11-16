@@ -5,6 +5,8 @@ import Particle from "../Particle";
 import SDC from "../../Assets/Projects/SDC.gif";
 import FEC from "../../Assets/Projects/FEC.png";
 import quizWhiz from "../../Assets/Projects/quizWhiz.gif";
+import LP from "../../Assets/Projects/LP.png";
+import CTJ from "../../Assets/Projects/CTJ.png";
 
 function Projects() {
   return (
@@ -18,6 +20,28 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={LP}
+              isBlog={false}
+              title="Lucky Parking"
+              description="An application to visualize LA Parking Citation Data to help policy makers make more informed decisions. Notable contributions include expanding UI/Test Code Coverage"
+              ghLink="https://github.com/hackforla/lucky-parking"
+              demoLink="https://www.luckyparking.org/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={CTJ}
+              isBlog={false}
+              title="Civic Tech Jobs"
+              description="A website to connect and manage volunteers with oporrtunities at Hack for LA. I collaborate with UI/UX team to turn Figma wireframes into responsive and dyanmic pages"
+              ghLink="https://github.com/hackforla/CivicTechJobs"
+              demoLink="https://civictechjobs.org/"
+            />
+          </Col>
+
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={quizWhiz}
@@ -34,7 +58,7 @@ function Projects() {
               imgPath={SDC}
               isBlog={false}
               title="Atelier Reviews Microservice"
-              description="A microservice for product reviews for the Atelier E-commerce website. Utilized PostgreSQL, AWS, Nginx, Redis, New-Relic to deploy and scale service decreasing latency by 82.5%"
+              description="A microservice for the Atelier E-commerce API. Utilized Postgres, AWS CDK, Nginx, Redis, New-Relic to deploy and scale service decreasing latency by 82.5%"
               ghLink="https://github.com/rpp2209-sdc-neptunium/Reviews-API-Service-Benny.git"
             />
           </Col>

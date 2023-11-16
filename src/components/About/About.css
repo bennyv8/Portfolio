@@ -16,3 +16,7 @@
 .tech-icons:hover .text-bubble {
   display: block;
 }
+
+.tech-icons:hover {
+  cursor: pointer;
+}

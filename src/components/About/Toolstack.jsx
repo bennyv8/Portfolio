@@ -5,44 +5,78 @@ import {
   SiPostman,
   SiSlack,
   SiAmazonaws,
+  SiStorybook,
+  SiTrello,
+  SiLighthouse
 } from "react-icons/si";
-import {
-  DiDocker,
-  DiGoogleDrive,
-  DiLinux
-} from "react-icons/di";
+import { DiDocker, DiGoogleDrive, DiLinux } from "react-icons/di";
+import Icon from "./Icon.jsx";
 
 function Toolstack() {
+  const techList = [
+    {
+      link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+      name: "AWS Cloud Development Kit",
+      element: <SiAmazonaws />,
+    },
+    {
+      link: "https://docs.docker.com/",
+      name: "Docker",
+      element: <DiDocker />,
+    },
+    {
+      link: "https://storybook.js.org/docs/",
+      name: "Storybook",
+      element: <SiStorybook />,
+    },
+    {
+      link: "https://trello.com/guide",
+      name: "Trello",
+      element: <SiTrello />,
+    },
+    {
+      link: "https://code.visualstudio.com/docs",
+      name: "VS Code",
+      element: <SiVisualstudiocode />,
+    },
+    {
+      link: "https://www.postman.com/api-documentation-tool//",
+      name: "Postman",
+      element: <SiPostman />,
+    },
+    {
+      link: "https://docs.kernel.org/",
+      name: "Linux",
+      element: <DiLinux />,
+    },
+    {
+      link: "https://slack.com/help/categories/200111606-Using-Slack",
+      name: "Slack",
+      element: <SiSlack />,
+    },
+    {
+      link: "https://www.google.com/drive/",
+      name: "Google Drive",
+      element: <DiGoogleDrive />,
+    },
+    {
+      link: "https://developer.chrome.com/docs/lighthouse/overview/",
+      name: "Google Lighthouse",
+      element: <SiLighthouse />,
+    },
+  ];
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
-      <Col xs={4} md={2} className="tech-icons">
-        <div className="text-bubble">Visual Studio Code</div>
-        <SiVisualstudiocode />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <div className="text-bubble">Postman</div>
-        <SiPostman />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <div className="text-bubble">Docker</div>
-        <DiDocker />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <div className="text-bubble">AWS</div>
-        <SiAmazonaws />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <div className="text-bubble">Linux</div>
-        <DiLinux />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <div className="text-bubble">Slack</div>
-        <SiSlack />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <div className="text-bubble">Google Drive</div>
-        <DiGoogleDrive />
-      </Col>
+      {techList.map((tech, key) => {
+        return (
+          <Icon
+            key={key}
+            link={tech.link}
+            name={tech.name}
+            element={tech.element}
+          />
+        );
+      })}
     </Row>
   );
 }

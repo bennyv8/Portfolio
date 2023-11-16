@@ -1,9 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import myImg from "../../Assets/logo.jpg";
-import {
-  AiFillGithub,
-} from "react-icons/ai";
+import { AiFillGithub } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 
 function Home2() {
@@ -16,40 +14,46 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I love my three P's: people, problem-solving, and pumpkin-pie.
-              <br />
-              <br />I am fluent in classics like
-              <i>
-                <b className="purple"> Javascript and Python. </b>
-              </i>
-              <br />
-              <br />
-              My field of Interest's are building new &nbsp;
-              <i>
-                <b className="purple">Web Technologies and Products </b> and
-                also in areas related to{" "}
-                <b className="purple">
-                  HealthTech and FinTech.
-                </b>
-              </i>
+              My name is Benny, I'm from LA, I'm a full stack developer with a
+              previous background in healthcare. I love learning and always
+              strive to be the type of person that anyone can always depend on.
+              Check out the about me and projects I've been working on during
+              funemployment.
               <br />
               <br />
-              Whenever possible, I also apply my passion for developing products
-              with <b className="purple">Node.js</b> and
+              <br />
+              My favorite Front End Technologies
               <i>
                 <b className="purple">
                   {" "}
-                  Modern Javascript Library and Frameworks
+                  ViteJs, HTML, CSS, ReactJs, TailwindCSS{" "}
                 </b>
               </i>
-              &nbsp; like
+              <br />
+              <br />
+              My favorite Back End Technologies
               <i>
-                <b className="purple"> React.js </b>
+                <b className="purple"> Postgres, ExpressJs, NodeJs, MongoDB </b>
+              </i>
+              <br />
+              <br />
+              My Favorite Dev Ops Technologies
+              <i>
+                <b className="purple">
+                  {" "}
+                  AWS: EC-T2, AWS:CodeDeploy, AWS:CodePipeline{" "}
+                </b>
+              </i>
+              <br />
+              <br />
+              My Favorite Testing Technologies
+              <i>
+                <b className="purple"> Google Lighthouse, Jest, NewRelic </b>
               </i>
             </p>
           </Col>
           <Col md={4} className="myAvtar">
-              <img src={myImg} className="img-fluid" alt="avatar" />
+            <img src={myImg} className="img-fluid" alt="avatar" />
           </Col>
         </Row>
         <Row>
